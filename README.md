@@ -46,3 +46,7 @@ Using a pivot table, i placed size in the row field and count of order in the va
 Using a pivot table, i placed pizza type in the row field and revenue in the value field and i used a bar chart to represent this. 
 
 ### RESULT AND FINDING
+- Classic Category contributes to Maximum Total Orders.
+- The Big Meat Small size contributes to the highest order.
+
+
