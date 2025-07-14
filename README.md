@@ -10,8 +10,39 @@ The primary dataset used for this analysis are "Pizza_Type.csv", "Pizza.csv", "O
 In the initial data preparation phase, i performed the following tasks;
 1. Data loading and inspection.
 2. VLOOKUP for extracting colums from other csv files into a sheet which serves as the main data for the analysis.
-3. Creation of new colums i.e Month, Hour, Days of week, Revenue.
+3. Creation of new colums i.e Month, Hour, Days of week, Quarter,Revenue.
 4. Handling empty cells.
 5. Data cleaning and formatting.
-6. ### EXPLORATORY DATA ANALYSIS
-7. 
+ ### EXPLORATORY DATA ANALYSIS
+ What is the Total Revenue? 
+ I used price and quantity to get the revenue column and i sum up all the value in the columns.
+ How many order were placed?
+ Count of order details Id
+ What is the average order value?
+ Total Revenue divided by Total Order
+How many total pizza were sold?
+Sum of all value in the quantity column.
+What is the average number of pizza per order?
+
+How much quantity was sold per pizza category?
+Using a pivot table, i placed category in the row field and sum of quantity in the value fielf.
+What is the most expensive pizza?
+Using a pivot table, i placed pizza id in the row field and max of price in the value field and i find top 1.
+When are the peak ordering hours?
+Using pivot table, i placed Hours in the row field and count of order Id in the value field.
+What is the average number of pizza ordered per day?
+Using pivot table, Order date in the row field and count of order id in the value field then i calculated the average using the count of order Id column.
+How do order vary by day of the week, month and quarter?
+I calculated separately for weekday, month and quarter using pivot table, i placed month, weekday and quarter in the row field and count of order id in the value field and visualize it on a line and bar chart.
+What is the category wise distribution of pizza?
+Which is the top 5 best selling pizzas by number of order and top 5 pizza by quantity?
+Using a bar chart, i placed pizza id in the axis x field and sum of quantity in axis y field and i calculated top 5
+What are the top 3 pizzas per category based on sales and top 3 pizza type by sales?
+I used a bar chart and i placed category in axis X , sum of revenue in Y axis and i calculated top 3
+What percentage of sales comes from category and size?
+Using pivot table, i placed category and size in the row field and sum of revenue in the value field and i change the calculation to % Grand total.
+What is the common pizza size ordered?
+Using a pivot table, i placed size in the row field and count of order in the value field and i find the top 1
+What percentage of sales comes from pizza type?
+Using a pivot table, i placed pizza type in the row field and revenue in the value field and i used a bar chart to represent this. 
+
