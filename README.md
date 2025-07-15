@@ -6,7 +6,7 @@
 - [DATA CLEANING AND PREPARATION](#data-cleaning-and-preparation)
 - [EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
 - [RESULT AND FINDING](#result-and-finding)
-- [LIMITATION](#limitation)
+- [LIMITATIONS](#limitations)
 ### PROJECT OVERVIEW
 This data analysis project provides insights into the sales performance of a pizza company from January to December 2015. By analyzing various aspects of the sales data, i seek to identify ttends, make data-driven recommendations, and give a deeper understanding of the company's performance.
 ### DATA SOURCE
