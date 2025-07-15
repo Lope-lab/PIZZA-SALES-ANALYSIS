@@ -1,4 +1,12 @@
 # PIZZA SALES ANALYSIS
+## TABLE OF CONTENT
+- [PROJECT OVERVIEW](#project-overview)
+- [DATA SOURCE](#data-source)
+- [TOOLS](#tools)
+- [DATA CLEANING AND PREPARATION](#data-cleaning-and-preparation)
+- [EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
+- [RESULT AND FINDING](#result-and-finding)
+- [LIMITATION](#limitation)
 ### PROJECT OVERVIEW
 This data analysis project provides insights into the sales performance of a pizza company from January to December 2015. By analyzing various aspects of the sales data, i seek to identify ttends, make data-driven recommendations, and give a deeper understanding of the company's performance.
 ### DATA SOURCE
@@ -55,7 +63,7 @@ Using a pivot table, i placed pizza type in the row field and revenue in the val
 - Large pizza size has 45.89%  shares of total revenue.
 - Classic category has 27% shares of total revenue.
 ### LIMITATIONS
--I removed the ingredient column and cells with empty value which did not affect the dataset.
+-I removed the ingredient column and rows with empty value because they would have affected the accuracy of my conclusion from the analysis.
 
 
 
