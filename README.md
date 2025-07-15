@@ -48,5 +48,15 @@ Using a pivot table, i placed pizza type in the row field and revenue in the val
 ### RESULT AND FINDING
 - Classic Category contributes to Maximum Total Orders.
 - The Big Meat Small size contributes to the highest order.
+- Orders are high during midday and evening period.
+- Highest order comes from the second quarter of the year.
+- The month with the highest order is July.
+- Orders are very high during weekends.
+- Large pizza size has 45.89%  shares of total revenue.
+- Classic category has 27% shares of total revenue.
+### LIMITATIONS
+-I removed the ingredient column and cells with empty value which did not affect the dataset.
+
+
 
 
