@@ -23,18 +23,17 @@ In the initial data preparation phase, i performed the following tasks;
 5. Data cleaning and formatting.
  ### EXPLORATORY DATA ANALYSIS
 1. What is the Total Revenue? 
- I used price and quantity to get the revenue column and i sum up all the value in the columns.
- 2.How many order were placed?
- Count of order details Id
+I used price and quantity to get the revenue column and i sum up all the value in the columns.
+2. How many order were placed?
+Count of order details Id
 3. What is the average order value?
- Total Revenue divided by Total Order
-4.How many total pizza were sold?
+Total Revenue divided by Total Order
+4. How many total pizza were sold?
 Sum of all value in the quantity column.
-5.What is the average number of pizza per order?
-
-6.How much quantity was sold per pizza category?
+5. What is the average number of pizza per order?
+6. How much quantity was sold per pizza category?
 Using a pivot table, i placed category in the row field and sum of quantity in the value fielf.
-7.What is the most expensive pizza?
+7. What is the most expensive pizza?
 Using a pivot table, i placed pizza id in the row field and max of price in the value field and i find top 1.
 8. When are the peak ordering hours?
 Using pivot table, i placed Hours in the row field and count of order Id in the value field.
