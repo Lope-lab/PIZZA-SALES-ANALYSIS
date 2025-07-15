@@ -11,16 +11,18 @@
 This data analysis project provides insights into the sales performance of a pizza company from January to December 2015. By analyzing various aspects of the sales data, i seek to identify ttends, make data-driven recommendations, and give a deeper understanding of the company's performance.
 ### DATA SOURCE
 The primary dataset used for this analysis are "Pizza_Type.csv", "Pizza.csv", "Order Details.csv", "Order.csv" files, containing detailed information about each sales made by the company.
+<img width="1583" height="715" alt="Screenshot 2025-07-13 042325" src="https://github.com/user-attachments/assets/e0e0fbb7-f350-428a-a9a7-194b8a91a07f" />
+<img width="1403" height="768" alt="Screenshot 2025-07-13 032610" src="https://github.com/user-attachments/assets/fd4ba34d-46d0-495e-81c5-34d7fc35cee3" />
+
 ### TOOLS
 - Excel- Data cleaning, Data preparation, Data Analysis
 - Power BI- ETL, Data Modeling, Report and Analysis
 ### DATA CLEANING AND PREPARATION
 In the initial data preparation phase, i performed the following tasks;
 1. Data loading and inspection.
-2. VLOOKUP for extracting colums from other csv files into a sheet which serves as the main data for the analysis.
-3. Creation of new colums i.e Month, Hour, Days of week, Quarter,Revenue.
-4. Handling empty cells.
-5. Data cleaning and formatting.
+2. Creation of new colums i.e Month, Hour, Days of week, Quarter,Revenue.
+3. Handling empty cells.
+4. Data cleaning and formatting.
  ### EXPLORATORY DATA ANALYSIS
 1. What is the Total Revenue? 
 I used price and quantity to get the revenue column and i sum up all the value in the columns.
